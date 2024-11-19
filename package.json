@@ -1,0 +1,15 @@
+{
+  "name": "hospital_v.5",
+  "version": "1.0.0",
+  "description": "integracion de javaScript",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node.js": "^0.0.1-security"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

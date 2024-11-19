@@ -1,0 +1,9 @@
+
+
+// utilización de modularizacion 
+
+@use './layout/footer';
+@use './layout/header';
+@use './layout/grid';
+@use './layout/forms';
+@import "../../node_modules/bootstrap/scss/bootstrap"
