@@ -117,11 +117,6 @@
   color: #343a40;
 }
 
-.wrapper {
-  width: 370px;
-  margin: 130px auto 0;
-}
-
 .testimonials {
   padding: 40px 0;
   text-align: center;
@@ -12101,4 +12096,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.csssass.map */

@@ -17,6 +17,6 @@ function captura (){
         alert("El mensaje es obligatorio");
         document.getElementById("message").focus(); 
     }
-    // alert(paciente) Prueba de coneexión del formulario
+    alert("los datos fueron guarados correctamente") 
     console.log (paciente +""+correo +""+asunto +""+ mensaje);
 }
