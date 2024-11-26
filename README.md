@@ -2,8 +2,9 @@
 Proyecto Sitios web Hospital escalonamiento a Javascripts
 
 Integración de javaScript
-https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-
+<span>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</span>
 Para iniciar el proyecto se debe debe preparar el entorno de desarrollo que nos permitira realizar las actualizaciones del proyecto. 
 
 Para esto realizo el siguiente proceso: 
