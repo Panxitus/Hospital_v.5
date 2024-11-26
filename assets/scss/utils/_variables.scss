@@ -1,0 +1,33 @@
+    // Estas variables son globales/
+    
+    //variables del header
+
+    $primary-color: #007bff;
+    $dark-color: #343a40;
+    $hover-color: darken($primary-color, 10%);
+    
+    // variable banner
+    $bn-primary-color: #007bff;
+    $bn-banner-bg: url('../../img/banner.jpg'); // Ruta de la imagen del banner
+    $bn-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    // variable grid
+    $vm-primary-color: #007bff;
+    $vm-border-color: #343a40;
+    $vm-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    $tes-primary-color: #007bff;
+    $tes-text-color: #343a40;
+    $tes-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
+    // varables de footer 
+    $footer-primary-color: #007bff;
+    $footer-secondary-color: #6c757d;
+    $footer-bg: #f8f9fa;
+    $footer-text-color: #343a40;
+    
+    
+    
+    
+    
