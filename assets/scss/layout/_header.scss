@@ -1,13 +1,11 @@
 @use '../utils/variables'  as *;
 
-
 .header {
     &__logo {
         &-image {
             max-width: 100%;
         }
     }
-
     &__nav {
         .nav-link {
             color: $dark-color;
@@ -16,7 +14,6 @@
             }
         }
     }
-
     &__button {
         .header__button-reservar {
             background-color: $primary-color;
@@ -26,30 +23,52 @@
             }
         }
     }
-}
-
-.banner {
-    background: $bn-banner-bg no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-
-    &__content {
-        max-width: 80%;
-    }
-
-    &__title {
-        font-size: 4rem;
+    #banner {
+        .contenedor{   
+            position: absolute;
+            width: 100%;//ancho
+            height: 100%;//largo
+        }  
+        img{   
+            background-position: center;
+            background-size: cover;
+        }
+        
+        h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        font-size: 6rem;
+        text-align: center;
+        padding: 10px;    
+        width: 50%;
         font-weight: bold;
-        text-transform: uppercase;
-        text-shadow: $bn-title-shadow;
-    }
-}
+        text-shadow: $bn-title-shadow;  
+        color:$bn-primary-color; 
+        }
+        p{
+            width: 50%;
+            padding: 15px 0;
+        }
 
+        .btn {
+            display: inline-block;
+            font-size: 15px;
+            padding: 12px 23px;
+            cursor: pointer;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            &-dark{
+                background:primary-color;
+                border: 1px ;
+                color: #fff;
+            }
+        }
+    }
+    
+}
 .vision-mission {
     padding: 40px 0;
 
