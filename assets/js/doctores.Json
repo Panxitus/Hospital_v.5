@@ -1,0 +1,66 @@
+[
+    { 
+        "_Comentarios":"Arquitectura del objeto JSON, con objetos anidados contacto y disponibilidad",  
+
+        "Nombre": "Felipe González Celis",
+        "Especialidad": "Cardiología",
+        "Experiencia": 15,
+            "InformaciónExtra":{
+                "contacto":"Felipe@hospital.cl",
+                 "disponibilidad":{
+                     "lunes":"mañana",
+                     "martes":"tarde",
+                     "miercoles":"Sin disponibilidad",
+                     "jueves":"tarde",
+                     "viernes":"mañana"
+                }
+            }
+    },    
+
+    {    
+        "Nombre": "Nicole Abarca Muñoz",
+        "Especialidad": "Medicina General",
+        "Experiencia": 3,
+            "InformaciónExtra":{
+                "contacto":"Nicole@hospital.cl",
+                 "disponibilidad":{
+                     "lunes":"tarde",
+                     "martes":"tarde",
+                     "miercoles":"mañana y tarde",
+                     "jueves":"tarde",
+                     "viernes":"mañana"
+                }
+            }
+    },
+    {
+        "Nombre": "Karina Palma Astudillo",
+        "Especialidad": "kinesiologa",
+        "Experiencia": 9,
+            "InformaciónExtra":{
+                "contacto":"k.palma@hospital.cl",
+                 "disponibilidad":{
+                     "lunes":"mañana",
+                     "martes":"tarde",
+                     "miercoles":"Sin disponibilidad",
+                     "jueves":"tarde",
+                     "viernes":"mañana"
+                }
+            }
+    },
+    {
+        "Nombre": "Ximena Torres Ulloa",
+        "Especialidad": "Urgencia",
+        "Experiencia": 8,
+            "InformaciónExtra":{
+                "contacto":"Felipe@hospital.cl",
+                 "disponibilidad":{
+                     "lunes":"mañana",
+                     "martes":"tarde",
+                     "miercoles":"mañana",
+                     "jueves":"tarde",
+                     "viernes":"Sin disponibilidad"
+                }
+            }
+    }
+
+]
