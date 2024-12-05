@@ -47,11 +47,19 @@ function captura (){
 }
 
 import data from '../js/doctores.json' assert {type:'json'};
-//console.log(data); prueba de consola para ver si los datos se estan consumiendo desde el json
+// console.log(data)Datos por consola
 
-let testimonials__item = document.querySelector('.testimonials__item');
-doctores.forEach(element => {
-    // console.log(element) consumo de datos
-    testimonials__item.innerHTML += ""
-                
-});
+// let results = document.querySelector('results');
+// doctores.forEach(element => {
+//     results.innerHTML +=`
+//     <div id="results">
+//        <div>class="results_medico1">${Element.nombre}</div>
+//     </div>`
+// // console.log(element) consumo de datos
+// });
+
+var app={};
+var micallback= function(doctores){
+    console.log(doctores);
+}    
+
