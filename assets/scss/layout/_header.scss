@@ -24,50 +24,46 @@
         }
     }
     #banner {
-        .contenedor{   
-            position: absolute;
-            width: 100%;//ancho
-            height: 100%;//largo
-        }  
-        img{   
-            background-position: center;
+        .banner {
+            background-image: url('../../img/banner.jpg');
             background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh; /* 100% de la altura de la ventana */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
         }
         
-        h1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -100%);
-        font-size: 6rem;
-        text-align: center;
-        padding: 10px;    
-        width: 50%;
-        font-weight: bold;
-        text-shadow: $bn-title-shadow;  
-        color:$bn-primary-color; 
+        .banner h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+            color: red;
         }
-        p{
-            width: 50%;
-            padding: 15px 0;
+        
+        .banner p {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+            Color: red;
         }
-
-        .btn {
-            display: inline-block;
-            font-size: 15px;
-            padding: 12px 23px;
+        
+        .banner button {
+            padding: 1em 2em;
+            font-size: 1em;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
             cursor: pointer;
-            font-weight: bold;
-            letter-spacing: 1px;
-            border-radius: 4px;
-            &-dark{
-                background:primary-color;
-                border: 1px ;
-                color: #fff;
-            }
+            transition: background-color 0.3s ease;
+        }
+        
+        .banner button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
         }
     }
-    
 }
 .vision-mission {
     padding: 40px 0;

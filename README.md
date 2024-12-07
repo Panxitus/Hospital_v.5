@@ -9,11 +9,13 @@ Integración <span><img src="https://img.shields.io/badge/JavaScript-F7DF1E?styl
 
     ¿Qué integre?
 
-    A nivel de <span><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"></span> 
+    <span><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"></span> 
     
     En el index. 
     
-    Cree un alert, que te da la bienvenida a la sitio web con el propósito de avisar que la página tiene elementos de javaScript
+    Cree un alert, que te da la bienvenida a la sitio web con el propósito de avisar que la página tiene elementos de javaScript. 
+
+    Se agregaron diferentes puntos de control, utilizando console.log a traves del método getElementById. 
      
 
     En contacto.html:
