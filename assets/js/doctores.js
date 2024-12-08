@@ -1,4 +1,4 @@
-[
+miCallback([
     { 
         "_Comentarios":"Arquitectura del objeto JSON, con objetos anidados contacto y disponibilidad",  
 
@@ -63,4 +63,4 @@
             }
     }
 
-]
+]);
