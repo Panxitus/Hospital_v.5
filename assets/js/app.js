@@ -45,3 +45,7 @@ function captura (){
     console.log (paciente +""+correo +""+asunto +""+ mensaje);
 }
 
+
+// utilizar with para verificar si puede llamar a json
+import doctores from '../js/doctores.json' with {type: 'json'};
+console.log(doctores);
