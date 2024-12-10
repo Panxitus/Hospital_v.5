@@ -1,7 +1,6 @@
-// 
-console.log ("inicio de programa")
-    alert ("Bienvenido al sitio web con javaScript");
-
+//aviso de elementos javascript
+// alert ("Bienvenido a mi sitio con Javascript");
+// console.log ("consola preparada");
 // Utilización de console.log para inspeccionar diferentes secciones del proyecto
 let cabecera = document.getElementById("encabezado");
 console.log (cabecera); 
@@ -46,20 +45,7 @@ function captura (){
     console.log (paciente +""+correo +""+asunto +""+ mensaje);
 }
 
-import data from '../js/doctores.json' assert {type:'json'};
-// console.log(data)Datos por consola
 
-// let results = document.querySelector('results');
-// doctores.forEach(element => {
-//     results.innerHTML +=`
-//     <div id="results">
-//        <div>class="results_medico1">${Element.nombre}</div>
-//     </div>`
-// // console.log(element) consumo de datos
-// });
-
-var app={};
-var micallback= function(doctores){
-    console.log(doctores);
-}    
-
+// utilizar with para verificar si puede llamar a json
+import doctores from '../js/doctores.json' with {type: 'json'};
+console.log(doctores);
